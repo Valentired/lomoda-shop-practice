@@ -29,3 +29,9 @@ cartOverlay.addEventListener('click', event => {
 		cartModalClose();
 	}
 });
+
+document.addEventListener("keydown", event => {
+    if (event.code == 'Escape') {
+        cartModalClose();
+    }
+});
